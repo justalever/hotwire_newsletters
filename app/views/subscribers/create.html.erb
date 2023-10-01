@@ -1,0 +1,12 @@
+<%= turbo_frame_tag "newsletter" do %>
+  <div class="bg-green-50/90 text-green-700 p-4 rounded text-sm sm:flex items-center justify-between">
+    <div class="flex items-start justify-between space-x-3">
+      <%= icon "check", classes: "text-green-600 w-5 h-5 flex-shrink-0" %>
+
+      <div class="flex-1">
+        <p class="text-green-800 font-semibold">Successfully subscribed</p>
+        <p class="leading-snug my-1">Look for a confirmation email from us in your inbox soon.</p>
+      </div>
+    </div>
+  </div>
+<% end %>

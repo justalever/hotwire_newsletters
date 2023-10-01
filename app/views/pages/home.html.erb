@@ -1,0 +1,11 @@
+<div class="flex flex-col justify-center items-center h-screen w-full bg-slate-50">
+  <div class="w-[460px] mx-auto rounded-xl bg-white p-8 shadow border border-slate-300">
+    <div class="mb-6">
+      <h4 class="tracking-tight">Subscribe to our newsletter</h4>
+      <p class="my-6 text-slate-700">Tips based on proven scientific research.</p>
+    </div>
+
+    <%= turbo_frame_tag "newsletter", src: new_subscriber_path %>
+
+  </div>
+</div>
